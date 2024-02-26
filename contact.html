@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h3 class="mb-3">Silahkan Login</h3>
+    <h3 class="mb-3">Hubungi Kami</h3>
 
     <form class="shadow p-5 rounded-4">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="exampleInputEmail1" class="form-label">Alamat Email:</label>
         <input
           type="email"
           class="form-control"
@@ -31,22 +31,24 @@
           aria-describedby="emailHelp"
         />
         <div id="emailHelp" class="form-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur!
+          Masukkan alamat email yang sesuai!
         </div>
       </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input
-          type="password"
+        <label for="exampleInputName" class="form-label">Nama:</label>
+        <input type="text" class="form-control" id="exampleInputName" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPesan" class="form-label">Pesan:</label>
+        <textarea
+          name=""
+          id="exampleInputPesan"
+          cols="30"
+          rows="3"
           class="form-control"
-          id="exampleInputPassword1"
-        />
+        ></textarea>
       </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Ingat saya</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Kirim pesan</button>
     </form>
 
     <script
